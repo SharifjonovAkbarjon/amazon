@@ -1,0 +1,198 @@
+.header{
+    width: 100%;
+    background: black;
+    height: 70px;
+    padding: 0 10px;
+
+}
+
+nav{
+
+    display: flex;
+    gap: 25px;
+
+    .navbar__logo{
+        display: flex;
+        gap: 15px;
+
+        .logos{
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 130px;
+            }
+        }
+
+        .locations{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            &:hover{
+                cursor: pointer;
+                border: 1px solid whitesmoke;
+            }
+
+            .locations__icons{
+                display: flex;
+
+                .fa-location-dot{
+                    color: #fff;
+                    // width: 20px;
+                } 
+            }
+            
+            .locations__text{
+                display: flex;
+                flex-direction: column;
+
+                p{
+                    color: #ddd;
+                    font-size: 16px;
+                    opacity: 70%;
+                }
+
+                span{
+                    color: #ddd;
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+        }
+    }
+
+    .navbar__search{
+        display: flex;
+        align-items: center;
+        width: 57.6%;
+        
+        .search__section{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+
+            .all{
+                display: flex;
+                width: 6%;
+                height: 100%;
+                button{
+                    width: 100%;
+                    border-radius: 10px 0 0 10px;
+                    background: rgb(230,230,230);
+                    border: none;
+
+                    &:hover{
+                        cursor: pointer;
+                        background: rgba(230, 230, 230, 0.662);
+
+                    }
+                }
+            }
+
+            .input{
+                display: flex;
+                width: 89%;
+                background: sienna;
+                height: 100%;
+
+                input{
+                    width: 100%;
+                    outline: none;
+                    padding: 15px;
+                    font-size: 18px;
+                }
+            }
+
+            .btn{
+                display: flex;
+                width: 5%;
+                height: 99%;
+
+                button{
+                    width: 100%;
+                    border: none;
+                    background: rgb(254,189,105);
+                    border-radius: 0 10px 10px 0;
+
+                    &:hover{
+                        cursor: pointer;
+                        background: rgb(211, 140, 46);
+
+                    }
+
+                    .fa-magnifying-glass{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar__icons{
+        display: flex;
+        width: 23%;
+        // background: seagreen;
+        
+
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            .language{
+                display: flex;
+                
+                .travel{
+                    display: flex;
+                    padding: 5px;
+                }
+            }
+
+            .sign__in{
+                display: flex;
+
+                .sign{
+                    display: flex;
+                    padding: 5px;
+                }
+            }
+
+            .orders{
+                display: flex;
+
+                div{
+                    display: flex;
+                    flex-direction: column;
+
+
+                    p{
+                        font-size: 14px;
+                        color: rgb(230,230,230);
+                    }
+
+                    span{
+                        font-size: 16px;
+                        color: white;
+                    }
+                }
+            }
+
+            .icon{
+                display: flex;
+                width: 80%;
+                
+                img{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+
+
+

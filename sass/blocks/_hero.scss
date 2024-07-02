@@ -1,0 +1,54 @@
+.hero{
+    width: 100%;
+    display: flex;
+}
+
+.hero__body{
+    display: flex;
+    flex-direction: column;
+ 
+    .carusel{
+        display: flex;
+    }
+
+    .advertise{
+        display: flex;
+        margin-top: 100px;
+        gap: 10px;
+
+        .collection{
+            width: 25%;
+            height: 350px;
+            border: 1px solid darkblue;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+
+            .title{
+                display: flex;
+
+                p{
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+
+            .objects{
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .images{
+                    display: flex;
+                    
+                    img{
+                        width: 130px;
+
+                    }
+                }
+            }
+        }
+    }
+}
